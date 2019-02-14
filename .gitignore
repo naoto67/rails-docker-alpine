@@ -1,0 +1,24 @@
+# Ignore all logfiles and tempfiles.
+app/log/*
+app/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development
+app/storage/*
+!/storage/.keep
+
+app/node_modules
+app/yarn-error.log
+
+/public/assets
+.byebug_history
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+*.swp
+*.DS_Store
+
+app/.env
+tags
